@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shubh's Portfolio - Frontend Developer skilled in HTML, CSS, JavaScript, Responsive Design, SEO, and more.">
+    <meta name="keywords" content="Portfolio, Web Developer, HTML, CSS, JavaScript, SEO, Responsive Design, GitHub, VS Code">
+    <meta name="author" content="Shubh">
+    <title>Shubh's Portfolio</title>
+    <!-- Google Fonts: Inter & Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Shubh's Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">&#9776;</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Shubhanshu Maru</span></h1>
+                <p class="subtitle">Frontend Developer &amp; Designer</p>
+                <p class="intro">
+                    I build modern, responsive, and SEO-friendly websites using the latest web technologies.
+                </p>
+                <a href="#" class="btn primary-btn">Download Resume</a>
+            </div>
+            <div class="hero-image">
+                <img src="myimg.jpg" alt="Shubh's Photo" class="profile-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Passionate about crafting beautiful and functional web experiences. My core skills include:
+            </p>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Git &amp; GitHub</li>
+                <li>VS Code</li>
+                <li>Responsive Design</li>
+                <li>SEO Optimization</li>
+                <li>UI/UX Principles</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <h3>Project Title 1</h3>
+                    <p>Short description of the project goes here. This is a placeholder.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <h3>Project Title 2</h3>
+                    <p>Short description of the project goes here. This is a placeholder.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="project-card">
+                    <div class="project-img"></div>
+                    <h3>Project Title 3</h3>
+                    <p>Short description of the project goes here. This is a placeholder.</p>
+                    <a href="#" class="project-link">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section / Footer -->
+    <footer id="contact" class="footer-section">
+        <div class="container footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/" target="_blank" aria-label="GitHub">
+                    <!-- GitHub SVG -->
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                        <circle cx="12" cy="12" r="12" fill="#181717"/>
+                        <path fill="#fff" d="M12 5.3c-3.7 0-6.7 3-6.7 6.7 0 3 2 5.5 4.7 6.4.3.1.4-.1.4-.3v-1.1c-1.9.4-2.3-.8-2.3-.8-.3-.7-.7-.9-.7-.9-.6-.4 0-.4 0-.4.7 0 1 .7 1 .7.6 1 1.6.7 2 .5.1-.4.2-.7.4-.9-1.5-.2-3-.8-3-3.3 0-.7.2-1.2.6-1.7-.1-.2-.3-.8.1-1.6 0 0 .6-.2 1.8.7.5-.1 1-.2 1.5-.2s1 .1 1.5.2c1.2-.9 1.8-.7 1.8-.7.4.8.2 1.4.1 1.6.4.5.6 1 .6 1.7 0 2.5-1.5 3.1-3 3.3.2.2.4.5.4 1v1.5c0 .2.1.4.4.3 2.7-.9 4.7-3.4 4.7-6.4 0-3.7-3-6.7-6.7-6.7z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">
+                    <!-- LinkedIn SVG -->
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="6" fill="#0A66C2"/>
+                        <path d="M7.75 17H5.5V9.5h2.25V17ZM6.625 8.5a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM18.5 17h-2.25v-3.25c0-.966-.784-1.75-1.75-1.75s-1.75.784-1.75 1.75V17H10.5V9.5h2.25v1.125c.414-.586 1.104-1.125 2.25-1.125 1.794 0 3.25 1.456 3.25 3.25V17Z" fill="#fff"/>
+                    </svg>
+                </a>
+                <a href="https://instagram.com/devbyshubh" target="_blank" aria-label="Instagram">
+                    <!-- Black and White Instagram SVG -->
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" rx="6" fill="#181717"/>
+                        <path d="M16.75 4h-9.5A3.25 3.25 0 0 0 4 7.25v9.5A3.25 3.25 0 0 0 7.25 20h9.5A3.25 3.25 0 0 0 20 16.75v-9.5A3.25 3.25 0 0 0 16.75 4Zm1.75 12.75a1.75 1.75 0 0 1-1.75 1.75h-9.5a1.75 1.75 0 0 1-1.75-1.75v-9.5A1.75 1.75 0 0 1 7.25 6h9.5A1.75 1.75 0 0 1 18.5 7.25v9.5ZM12 8.25A3.75 3.75 0 1 0 12 15.75 3.75 3.75 0 0 0 12 8.25Zm0 6A2.25 2.25 0 1 1 12 9.75a2.25 2.25 0 0 1 0 4.5Zm4.25-6.5a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" fill="#fff"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-info">
+                <p>Email: <a href="mailto:shubhanshumaru2@gmail.com">shubhanshumaru2@gmail.com</a></p>
+                <p>&copy; 2025 Shubh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript for nav toggle and scroll animations -->
+    <script src="script.js"></script>
+</body>
+</html>
